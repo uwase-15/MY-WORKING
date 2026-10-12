@@ -16,7 +16,7 @@ This is a simple, interactive console-based Java program designed to identify on
 The program follows a decision tree logic:
 * **Step 1:** The program asks if the mushroom has gills. If the answer is **no**, it immediately identifies it as a *Cèpe de Bordeaux*.
 * **Step 2:** If the mushroom has gills, the program prompts for additional features:
-  * Habitat (forest vs. meadow)
+  * Habitat (forest vs. meadows)
   * Presence of a ring
   * Cup shape (convex vs. flat/other)
 * **Step 3:** Evaluates your answers against logical rules and outputs the correct mushroom species.
