@@ -15,11 +15,16 @@ This is a simple, interactive console-based Java program designed to identify on
 ## **How It Works**
 The program follows a decision tree logic:
 * **Step 1:** The program asks if the mushroom has gills. If the answer is **no**, it immediately identifies it as a *Cèpe de Bordeaux*.
-* **Step 2:** If the mushroom has gills, the program prompts for additional features:
-  * Habitat (forest vs. meadows)
-  * Presence of a ring
-  * Cup shape (convex vs. flat/other)
+* **Step 2:**If the answer is yes (the mushroom has gills), the program prompts the user for additional descriptive features:
+  *Habitat: Does it grow in a forest or in meadows?
+  *Ring: Does it have a ring?
+  *Cup Shape: Does it have a convex cup (vs. flat/other)?   
 * **Step 3:** Evaluates your answers against logical rules and outputs the correct mushroom species.
+* Coprin chevelu: Gills + Meadows + Ring + No convex cup
+* Agaric Jaunissant: Gills + Meadows + Ring + Convex cup
+* Amanite tue-mouches: Gills + Forest + Ring + Convex cup
+* Pied bleu: Gills + Forest + No ring + Convex cup
+*Girolle: Gills + Forest + No ring + No convex cup   
 
 ## **Requirements**
 * **Java Development Kit (JDK)** installed on your system (Java 8 or higher recommended)
